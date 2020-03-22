@@ -21,7 +21,7 @@ const Card = props => {
         <div className="info-section">
         <div className="info">
 
-        <h6>Condicion: {
+        <h6>Condición: {
           props.info.condition === "new"
           ? "nuevo" 
           : "usado"
