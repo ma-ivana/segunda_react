@@ -11,7 +11,7 @@ const App = () => {
       "title": "Motorola G6 Plus 64 Gb Índigo Oscuro 4 Gb Ram",
       "price": 28599,
       "condition": "new",
-      "free_shipping": true,
+      "free_shipping": false,
       "thumbnail": "http://mla-s1-p.mlstatic.com/909111-MLA31239994076_062019-I.jpg"
     },
     {

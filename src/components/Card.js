@@ -1,6 +1,7 @@
 import React from 'react';
 import './Card.css';
-import truck from './truck-solid.svg';
+import truck from '../img/truck-solid.svg';
+import envio_pago from '../img/Dollar-512.png';
 
 
 const Card = props => {
@@ -20,13 +21,19 @@ const Card = props => {
         <div className="info-section">
         <div className="info">
 
-        <h6>Condicion: {props.info.condition}</h6>
+        <h6>Condicion: {
+          props.info.condition === "new"
+          ? "nuevo" 
+          : "usado"
+          }</h6>
       </div>
       
-        {props.info.free_shipping === true &&  // puede sacar "=== true" porque es lo implícito
-        <div className="truck">
-        <img src={truck} className="truck-img" className="filter-green"/>
-        </div>}
+        <div className="shipping">
+          {props.info.free_shipping
+            ? <img src={truck} className="truck-img" className="filter-green"/>
+            : <img alt="envio pago" src={envio_pago} className="envio_pago"/>
+        }
+        </div>
         </div>
       
       </div>

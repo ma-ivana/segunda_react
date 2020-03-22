@@ -31,7 +31,7 @@ h5 {
 color: rgb(88, 8, 88);
 }
 
-.truck {
+.shipping {
  width: 30px;
  height: 30px;
  padding-top: 20px;
@@ -40,12 +40,17 @@ color: rgb(88, 8, 88);
 .truck-image {
   width: 100%;
   height: auto;
-  
-
   }
 
-  .filter-green{
-        filter: invert(24%) sepia(80%) saturate(2368%) hue-rotate(96deg) brightness(95%) contrast(108%);
-    }
+.filter-green {
+  filter: invert(24%) sepia(80%) saturate(2368%) hue-rotate(96deg) brightness(95%) contrast(108%);
+}
+
+.envio_pago {
+  width: 100%;
+  height: auto;
+}
+
+  
 
     
