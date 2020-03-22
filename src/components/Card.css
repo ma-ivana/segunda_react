@@ -1,0 +1,51 @@
+.card {
+  width: 300px;
+  height: 400px;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 5%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+.img-miniatura {  
+  height: 200px;
+}
+
+.miniatura {
+  width: auto;
+  overflow: hidden;
+  height: 200px;
+}
+
+.info-section {
+display: flex;
+justify-content: space-between;
+}
+
+h5 {
+color: rgb(88, 8, 88);
+}
+
+.truck {
+ width: 30px;
+ height: 30px;
+ padding-top: 20px;
+}
+
+.truck-image {
+  width: 100%;
+  height: auto;
+  
+
+  }
+
+  .filter-green{
+        filter: invert(24%) sepia(80%) saturate(2368%) hue-rotate(96deg) brightness(95%) contrast(108%);
+    }
+
+    
