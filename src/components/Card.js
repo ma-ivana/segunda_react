@@ -21,7 +21,7 @@ const Card = props => {
         <div className="info-section">
         <div className="info">
 
-        <h6>Condicion: {
+        <h6>Condición: {
           props.info.condition === "new"
           ? "nuevo" 
           : "usado"
@@ -30,7 +30,7 @@ const Card = props => {
       
         <div className="shipping">
           {props.info.free_shipping
-            ? <img src={truck} className="truck-img" className="filter-green"/>
+            ? <img src={truck} alt="camión de envío gratuito" className="truck-img" className="filter-green"/>
             : <img alt="envio pago" src={envio_pago} className="envio_pago"/>
         }
         </div>

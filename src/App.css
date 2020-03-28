@@ -1,7 +1,4 @@
-.rojo {
-  background-color: red;
-}
-
-.azul {
-  background-color: blue;
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
 }

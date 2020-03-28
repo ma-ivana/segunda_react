@@ -409,8 +409,8 @@ const App = () => {
   ]
 
   return (
-    <div>
-      <Card info={products[0]} />
+    <div className="wrapper">
+      {products.map(product => <Card info={product}/>)}
     </div>
   );
 }
