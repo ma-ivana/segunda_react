@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 10px;
@@ -23,19 +24,33 @@
   height: 200px;
 }
 
+.bottom {
+  width: 250px;
+}
+
 .info-section {
 display: flex;
 justify-content: space-between;
+align-items: center;
+}
+
+.info {
+  padding-bottom: 15px;
+  height: 30px;
 }
 
 h5 {
 color: rgb(88, 8, 88);
 }
 
+h6 {
+  margin-bottom: 5px;
+}
+
 .shipping {
  width: 30px;
  height: 30px;
- padding-top: 20px;
+ margin-top: 15px;
 }
 
 .truck-image {

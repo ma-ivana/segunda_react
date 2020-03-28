@@ -10,9 +10,9 @@ const Card = props => {
     
     <div className="card">
       <div className="img-miniatura">
-        <img className="miniatura" src={props.info.thumbnail}></img>
+        <img alt="imagen de teléfono" className="miniatura" src={props.info.thumbnail}></img>
         </div>
-        <div>
+        <div className="bottom">
         <h5>{props.info.title}</h5>
 
         
@@ -26,11 +26,11 @@ const Card = props => {
           ? "nuevo" 
           : "usado"
           }</h6>
-      </div>
+        </div>
       
         <div className="shipping">
           {props.info.free_shipping
-            ? <img src={truck} alt="camión de envío gratuito" className="truck-img" className="filter-green"/>
+            ? <img src={truck} alt="camión de envío gratuito" className="truck-img filter-green"/>
             : <img alt="envio pago" src={envio_pago} className="envio_pago"/>
         }
         </div>

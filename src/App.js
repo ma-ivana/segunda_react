@@ -410,7 +410,7 @@ const App = () => {
 
   return (
     <div className="wrapper">
-      {products.map(product => <Card info={product}/>)}
+      {products.map((product, i) => <Card info={product} key={i}/>)}
     </div>
   );
 }
